@@ -8,7 +8,7 @@ div {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 62px;
     font-style: bold;
     color: gray;
 }
@@ -16,6 +16,7 @@ h1 {
 h2 {
     color: grey;
     font-style: bold;
+    font-size: 40px;
 }
 
 .orange-color {
@@ -29,10 +30,10 @@ a {
 .link-btn {
     text-decoration: none;
     background-image: linear-gradient(salmon, red);
-    padding: 10px 40px;
+    padding: 25px 60px;
     border-radius: 50px;
     color: white;
-    font-weight: 700;
+    font-weight: 900;
 
 }
 
@@ -48,6 +49,11 @@ a {
     padding-left: 5px;
 }
 
+.half-width p {
+    font-size: 20px;
+    color: #9a9797;
+}
+
 .flexible-container {
     display: flex;
 }
@@ -56,13 +62,12 @@ a {
     text-align: justify;
     width: 50%;
     padding: 5%;
-    margin-left: 40px;
+    margin-left: 10px;
     height: 100%;
 }
 
-.half-width-second {
-    width: 80%;
-    padding-left: 5px;
+.half-width-second p {
+    font-size: 20px;
 }
 
 .first-section {
@@ -80,6 +85,10 @@ a {
 .half-width-third {
     text-align: center;
 
+}
+
+.half-width-third p {
+    font-size: 19px;
 }
 
 .foods-recipes {
@@ -109,7 +118,7 @@ a {
 }
 
 .recipe-title p {
-    font-size: 13px;
+    font-size: 19px;
 }
 
 .social {
@@ -119,7 +128,7 @@ a {
     margin-right: 5%;
     margin-top: 7%;
     height: 300px;
-    border-radius: 15px;
+    border-radius: 40px;
     box-shadow: 2px 2px 3px 3px #9a9797;
     margin-bottom: 50px;
 }
@@ -128,14 +137,26 @@ a {
     margin: 8% 8%;
 }
 
+.small {
+    font-weight: bold;
+    padding: 50px 10px;
+    font-size: 15px;
+
+
+}
+
 .all-social h1 {
     color: black;
     font-weight: bold;
 }
 
 footer {
-    background-color: black;
-    height: 130px;
+    width: 100%;
+    background-color: #0B0D17;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     text-align: center;
 }
 
@@ -148,10 +169,14 @@ footer {
 }
 
 footer p {
-    font-size: 13px;
-    color: white;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 30px 0;
 }
 
 footer h3 {
     font-weight: bold;
+    font-size: 35px;
+    padding: 30px 0;
 }
