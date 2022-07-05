@@ -1,6 +1,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0%;
+    inline-size: block;
 }
 
 div {
@@ -150,6 +151,9 @@ a {
 
 .all-social {
     margin: 8% 8%;
+    padding: 0px;
+    margin-top: 2%;
+
 }
 
 .small {
