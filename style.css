@@ -1,0 +1,157 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0%;
+}
+
+div {
+    display: block;
+}
+
+h1 {
+    font-size: 50px;
+    font-style: bold;
+    color: gray;
+}
+
+h2 {
+    color: grey;
+    font-style: bold;
+}
+
+.orange-color {
+    color: orange;
+}
+
+a {
+    font-size: 18px;
+}
+
+.link-btn {
+    text-decoration: none;
+    background-image: linear-gradient(salmon, red);
+    padding: 10px 40px;
+    border-radius: 50px;
+    color: white;
+    font-weight: 700;
+
+}
+
+.half-width {
+    text-align: justify;
+    width: 50%;
+    padding: 50px;
+    margin-left: 40px;
+}
+
+.half-width img {
+    width: 80%;
+    padding-left: 5px;
+}
+
+.flexible-container {
+    display: flex;
+}
+
+.half-width-second {
+    text-align: justify;
+    width: 50%;
+    padding: 5%;
+    margin-left: 40px;
+    height: 100%;
+}
+
+.half-width-second {
+    width: 80%;
+    padding-left: 5px;
+}
+
+.first-section {
+    background-image: url(images/shapes/Frame\ 59.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.secnd-section {
+    background-image: url(images/shapes/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.half-width-third {
+    text-align: center;
+
+}
+
+.foods-recipes {
+    display: flex;
+    padding: 20px;
+}
+
+.food {
+    margin-left: 3%;
+    margin-right: 3%;
+    box-shadow: 5px 5px 15px grey;
+    border-radius: 15px;
+}
+
+.food img {
+    width: 90%;
+    padding: 5%;
+}
+
+.recipe-title {
+    margin-top: -45px;
+    padding: 5%;
+}
+
+.recipe-title h3 {
+    font-weight: bold;
+}
+
+.recipe-title p {
+    font-size: 13px;
+}
+
+.social {
+    display: flex;
+    padding-left: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 7%;
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 3px 3px #9a9797;
+    margin-bottom: 50px;
+}
+
+.all-social {
+    margin: 8% 8%;
+}
+
+.all-social h1 {
+    color: black;
+    font-weight: bold;
+}
+
+footer {
+    background-color: black;
+    height: 130px;
+    text-align: center;
+}
+
+.orange {
+    color: orangered;
+}
+
+.grey {
+    color: grey;
+}
+
+footer p {
+    font-size: 13px;
+    color: white;
+}
+
+footer h3 {
+    font-weight: bold;
+}
