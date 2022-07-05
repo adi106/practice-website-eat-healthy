@@ -121,6 +121,20 @@ a {
     font-size: 19px;
 }
 
+#border1 {
+    border-left: 7px solid tomato;
+    border-top: 7px solid orange;
+    border-right: 7px solid yellowgreen;
+    border-bottom: 7px solid lightblue;
+}
+
+#border2 {
+    border-left: 7px solid blue;
+    border-top: 7px solid indigo;
+    border-right: 7px solid brown;
+    border-bottom: 7px solid salmon;
+}
+
 .social {
     display: flex;
     padding-left: 5%;
