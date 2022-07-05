@@ -30,7 +30,7 @@ a {
 .link-btn {
     text-decoration: none;
     background-image: linear-gradient(salmon, red);
-    padding: 25px 60px;
+    padding: 35px 60px;
     border-radius: 50px;
     color: white;
     font-weight: 900;
@@ -47,6 +47,7 @@ a {
 .half-width img {
     width: 80%;
     padding-left: 5px;
+    padding: 26px;
 }
 
 .half-width p {
